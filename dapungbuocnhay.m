@@ -59,3 +59,5 @@ disp(w_new);
 
 %Tìm đáp ứng bước nhảy
 step(w_new)
+info = stepinfo(w_new);
+disp(info);
